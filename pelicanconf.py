@@ -33,6 +33,8 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images', 'admin']
 TEMPLATE_PAGES = {"admin/index.html": "admin/index.html"}
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["pelican-yaml-metadata"]
 
 
 # Uncomment following line if you want document-relative URLs when developing
